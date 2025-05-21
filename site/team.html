@@ -1,0 +1,41 @@
+<head>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Mulish:ital@0;1&display=swap');
+		* { box-sizing: border-box; font-family: Mulish, sans-serif; }
+        body { margin: 0; padding: 20px;background-image: url('images/back.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center; background-attachment: fixed;}
+        nav { background-color: #0754e3; padding: 15px; margin-bottom: 20px; }
+        nav a { color: white; text-decoration: none; margin-right: 20px; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .card { background: white; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; }
+        .gallery img { width: 400px; height: 400px; object-fit: cover; border-radius: 4px; }
+	</style>
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <a href="index.html">ГЛАВНАЯ</a>
+            <a href="about.html">О ПРОЕКТЕ</a>
+            <a href="team.html">УЧАСТНИКИ</a>
+            <a href="blog.html">ЖУРНАЛ</a>
+            <a href="resources.html">РЕСУРСЫ</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="card">
+            <h2>Наша команда</h2>
+            <div class="gallery img">
+                <div>
+                    <li>Софья Золотарева - участник проекта</li>
+                    <p>Составила справочные материалы для лабораторных работ</p>
+                    <li>Анастасия Сухинина - участник проекта</li>
+                    <p>Сделала анимацию для комикса приложения</p>
+                    <li>Анастасия Буханцева - участник проекта</li>
+                    <p>Сделала лабораторные работы</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

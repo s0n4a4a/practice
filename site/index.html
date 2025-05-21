@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Виртуальная лаборатория</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mulish:ital@0;1&display=swap');
+		* { box-sizing: border-box; font-family: Mulish, sans-serif; }
+        body { margin: 0; padding: 20px;background-image: url('images/back.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center; background-attachment: fixed;}
+        nav { background-color: #0754e3; padding: 15px; margin-bottom: 20px; }
+        nav a { color: white; text-decoration: none; margin-right: 20px; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .card { background: white; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; }
+        .gallery img { width: 360px; height: 600px; object-fit: cover; border-radius: 4px; }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <a href="index.html">ГЛАВНАЯ</a>
+            <a href="about.html">О ПРОЕКТЕ</a>
+            <a href="team.html">УЧАСТНИКИ</a>
+            <a href="blog.html">ЖУРНАЛ</a>
+            <a href="resources.html">РЕСУРСЫ</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="card">
+		<div>
+            <h1>Виртуальная лаборатория</h1>
+            <p>Интерактивная платформа с виртуальными лабораторными работами, делающая обучение в школе увлекательнее!</p>
+		</div>
+		<div>
+            <img src="images/glavlog.png" alt="Логотип" style="width: 300px; margin: 20px 0;">
+        </div>
+    </div>
+        <div class="card">
+            <h2>Последние новости</h2>
+            <div>
+		<div class="gallery img">
+            <div class="card">
+                <h3>Новая лабораторная работа</h3>
+                <img src="images/nov1.jpg">
+                <p>02.04.2025 - была разработана новая лабораторная работа по физике</p>
+            </div>
+		    <div class="card">
+		    <h3>Новый справочник по биологии</h3>
+		    <img src="images/nov2.jpg">
+                    <p>15.03.2025 - был разработан справочник по биологии</p>
+            </div>
+		    <div class="card">
+		    <h3>Новый комикс</h3>
+		    <img src="images/nov3.png">
+            <p>13.01.2025 - был разработан комикс</p>
+            </div>
+        </div>
+</body>
+</html>
